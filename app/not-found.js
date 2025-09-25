@@ -1,7 +1,8 @@
 'use client';
-import Image from "next/image";
 import { useRouter } from "next/navigation";
-export default function notFound() {
+import Image from "next/image";
+
+export default function NotFound() {
     const router = useRouter();
     return (
         <div className="error-page container">
