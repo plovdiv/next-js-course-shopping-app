@@ -43,6 +43,7 @@ export default function PaginatedList({ initialProducts, totalProducts, category
                         {loading ? <Loader /> : 'Load More'}
                     </button> : ''
             }
+            <p>Showing {products.length} of {totalProducts} products</p>
             {
                 error &&
                 <p>{error}</p>
