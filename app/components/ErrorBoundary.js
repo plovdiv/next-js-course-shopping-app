@@ -28,7 +28,7 @@ export class ErrorBoundary extends React.Component {
 
     return (
       <Suspense fallback={<Loader />}>
-            {this.props.children};
+            {this.props.children}
       </Suspense>
     )
 
