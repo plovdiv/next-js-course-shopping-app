@@ -4,7 +4,7 @@ import { ErrorBoundary } from "../../components/ErrorBoundary";
 export default function page({ params }) {
   const category = params.slug?.[0] || null;
   return (
-    <div className='products-page' > 
+    <div className='products-page'>
       <div className="page-header">
         <h1>Products</h1>
       </div>
